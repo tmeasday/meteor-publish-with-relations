@@ -7,7 +7,7 @@ Package.describe({
 
 Package.on_use(function(api) {
   api.versionsFrom("METEOR@0.9.0");
-  api.use('coffeescript', 'server');
+  api.use('coffeescript@=2.0.3-2-rc161.0', 'server');
   api.add_files('publish_with_relations.coffee', 'server');
 });
 
